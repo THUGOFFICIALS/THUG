@@ -5,7 +5,7 @@
 import os, urllib, requests, asyncio
 from userbot.utils import admin_cmd
 
-@borg.on(admin_cmd(pattern=r"boobs"))
+@borg.on(admin_cmd(pattern=r"boob"))
 async def boobs(event):
     if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Var.TEMP_DOWNLOAD_DIRECTORY)
@@ -20,7 +20,7 @@ async def boobs(event):
     await event.delete()
     await a.delete()
 
-@borg.on(admin_cmd(pattern=r"butts"))
+@borg.on(admin_cmd(pattern=r"butt"))
 async def butts(event):
     if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Var.TEMP_DOWNLOAD_DIRECTORY)
