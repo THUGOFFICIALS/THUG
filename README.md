@@ -1,4 +1,4 @@
-# THÊ THUGS
+# THÊ THUG
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
 [![THUGBOT logo](https://telegra.ph/file/f3bba44db6bcf3cec66c2.jpg)](https://t.me/hellbot_official)
