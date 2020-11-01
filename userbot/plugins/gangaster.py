@@ -22,4 +22,4 @@ async def _(event):
         await asyncio.sleep(2)
         await event.edit("😈")
         await asyncio.sleep(3)
-        await event.edit("EVERYBODY IS GANGSTER UNTILL [GANGSTER](@ALONEGANGSTE4) AARIVE 😈😈😈")
+        await event.edit("EVERYBODY IS GANGSTER UNTILL [GANGSTER](https://t.me/ALONEGANGSTE4) AARIVE 😈😈😈")
