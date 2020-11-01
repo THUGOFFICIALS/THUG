@@ -4,14 +4,14 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME, hellversion
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
-PM_IMG = "https://telegra.ph/file/f34675b4e94d4290c0b6b.mp4"
+PM_IMG = "https://telegra.ph/file/c6ea2c607bae7ab1702b4.jpg"
 pm_caption = "🔥🔥**Hêllẞø† IS ONLINE🔥🔥\n\n\n"
 
-pm_caption += f"⚔️⚔️**MASTER**⚔️⚔️       : {DEFAULTUSER}\n\n"
+pm_caption += f" **MASTER**      : {DEFAULTUSER}\n\n"
 
 pm_caption += "🛡️🛡️**TELETHON**🛡️🛡️   : 1.15.0 \n\n"
 
-pm_caption += f"😈😈**Hêllẞø†**😈😈         : `{hellversion}`\n\n"
+pm_caption += f"😈😈**THUGUSERBOT**😈😈         : `{hellversion}`\n\n"
 
 pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️     : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n\n"
 
