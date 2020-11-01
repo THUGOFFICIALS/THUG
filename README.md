@@ -1,8 +1,7 @@
-# †hê Hêllẞø†
+# THÊ THUGS
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](https://t.me/kraken_the_badass) Also join support channel and group :- https://t.me/HellBot_Official Enjoy Your Bot!!💝
-[![HellBot logo](https://telegra.ph/file/2165457cc7e428ff64919.jpg)](https://t.me/hellbot_official)
+[![THUGBOT logo](https://telegra.ph/file/f3bba44db6bcf3cec66c2.jpg)](https://t.me/hellbot_official)
 
 
 # The owner would not be responsible for any kind of bans due to the bot...
@@ -16,29 +15,14 @@ This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](h
 
 ### The Easy Way
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FHellBoy-OP%2FHellBot&template=https%3A%2F%2Fgithub.com%2FHellBoy-OP%2FHellBot" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
-# Generate String Session From Below Links:-
-
-### [String #1](https://Hellbot.hellboyop.repl.run)
-
-### [String #2](https://Hellbot2.hellboyop.repl.run)
-
+<p align="center">
+<a href = "https://heroku.com/deploy?template=https://github.com/THUGOFFICIALS/THUG"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
+<br>
 # Credits👀
 ### • [JaaduBot](https://github.com/Amberyt/JaaduBot)
 ## One and only. Others with some misfuntioning brain stay out from this SUPER POWERFULL BOT😏
 
 ## The Normal Way
-
-Simply clone the repository and run the main file:
-```sh
-git clone https://github.com/HellBoy-OP/HellBot
-cd HellBot
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create local_config.py with variables as given below>
-python3 -m userbot
-```
 
 An example `local_config.py` file could be:
 
