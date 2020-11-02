@@ -12,7 +12,7 @@ from userbot.utils import admin_cmd
 
 
 
-@borg.on(admin_cmd(pattern=r"mmf ?(.*)"))
+@borg.on(admin_cmd(pattern=r"memify ?(.*)"))
 
 async def handler(event):
 
