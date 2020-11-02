@@ -28,15 +28,15 @@ DEFAULTUSER = (
 )
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 
-USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Hêllẞø†.**\n__Now GTFO, i'm busy__"
-USER_BOT_NO_WARN = ("I AM THUG USERBOT MY ONLY ONE MASTER IS GANGSTER  **BOSSDK BINA PU6E DM NAHI KARNE KA DM CHAIYE TO BOLO BAKCHODI NAHI KARNE KA OKAY 🙂**.\n"
+USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's GANGSTER ASSISTANT.**\n__Now GTFO, i'm busy__"
+USER_BOT_NO_WARN = ("Hello, This is **GANGSTER Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
                    f"This is my master {DEFAULTUSER}'s Inbox\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
-                    "OR IF U ARE NOT COMMON IN GRP JUST W8 🙂")
+                    "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @borg.on(admin_cmd(pattern="a ?(,*)"))
+    @borg.on(admin_cmd(pattern="a ?(.*)"))
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -71,7 +71,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await rko.delete()
 
 
-    @command(pattern="^. ?(,*)")
+    @command(pattern="^.b ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -90,7 +90,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
-    @command(pattern="^.da ?(,*)")
+    @command(pattern="^.d ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -232,7 +232,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** @Kraken_The_BadASS")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** THUG")
             
             
             
