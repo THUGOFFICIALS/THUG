@@ -36,7 +36,7 @@ if ALIVE_MESSAGE is None:
    ALIVE_MESSAGE += f"MY BOSS : {DEFAULTUSER} \n\n "
                 
             
-#@command(outgoing=True, pattern="^.hell$")
+#@command(outgoing=True, pattern="^.thug$")
 @borg.on(admin_cmd(pattern=r"hell"))
 async def amireallyalive(awake):
     """ For .hell command, check if the bot is running.  """
