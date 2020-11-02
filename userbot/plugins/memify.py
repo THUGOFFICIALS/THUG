@@ -9,7 +9,7 @@ from userbot.utils import admin_cmd, sudo_cmd
 from var import Var
 # how a lazy guy ports.
 client = borg
-@borg.on(admin_cmd("memify ?(.*)"))
+@borg.on(admin_cmd("mmf ?(.*)"))
 async def handler(event):
     if event.fwd_from:
         return
@@ -21,7 +21,7 @@ async def handler(event):
         await event.edit("```Reply to a image/sticker.```")
         return
     file = await client.download_media(reply_message, Var.TEMP_DOWNLOAD_DIRECTORY)
-    await event.edit("```Memifying this image! (」ﾟﾛﾟ)｣ ```")
+    await event.edit("```gib me @ sec 😎😎 ```")
     text = str(event.pattern_match.group(1)).strip()
     if len(text) < 1:
         return await event.edit("You might want to try `.help memify`")
