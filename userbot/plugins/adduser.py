@@ -34,4 +34,4 @@ async def _(event):
                     ))
                 except Exception as e:
                     await event.reply(str(e))
-            await event.edit("**ADDED the user to the chat successfully.**😙")
+            await event.edit("**ADDED the user to the chat successfully.**😎")
