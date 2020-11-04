@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
+  WARN_PIC = "https://telegra.ph/file/04a43e5aa4ec612b92af6.mp4"
 else:
   WARN_PIC = PMPERMIT_PIC
 
@@ -28,15 +28,15 @@ DEFAULTUSER = (
 )
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 
-USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's GANGSTER ASSISTANT.**\n__Now GTFO, i'm busy__"
-USER_BOT_NO_WARN = ("Hello, This is **GANGSTER Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
-                   f"This is my master {DEFAULTUSER}'s Inbox\n"
+USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Hêllẞø†.**\n__Now GTFO, i'm busy__"
+USER_BOT_NO_WARN = ("hello its me do u remember me ??,"
+                   f"{DEFAULTUSER}'s Inbox\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
-                    "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥")
+                    You will be blocked after 5 more msgs_⭕️\n\n"")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @borg.on(admin_cmd(pattern="a ?(.*)"))
+    @borg.on(admin_cmd(pattern="al ?(.*)"))
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -71,7 +71,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await rko.delete()
 
 
-    @command(pattern="^.b ?(.*)")
+    @command(pattern="^.bl ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -80,7 +80,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 924138714:
+          if chat.id == 1024855816:
             await event.edit("You are tried to block my Creator😡 , now i will sleep for 100 seconds 😴 ")
             await asyncio.sleep(100)
           else:
@@ -90,7 +90,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
-    @command(pattern="^.d ?(.*)")
+    @command(pattern="^.dis ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -108,7 +108,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 
     
 
-    @command(pattern="^.la")
+    @command(pattern="^.lista")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -232,7 +232,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** THUG")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know🔥** @@HUNTER_YUVRAJ")
             
             
             
