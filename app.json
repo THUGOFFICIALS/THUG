@@ -29,17 +29,17 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @Kraken_The_BadASS.",
-      "value": "",
+      "value": "GANGTER TUMHARA PAPA",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .hell command.",
-      "value": "",
+      "value": "I AM YOUR DAD THUG",
       "required": false
     },
     "ALIVE_PHOTTO": {
       "description": "put here any telegraph media link for alive pic.",
-      "value": "",
+      "value": "https://i.postimg.cc/MKF46Jzq/IMG-20201022-184213-361.jpg",
       "required": false
     },
     "BIO_MSG": {
@@ -59,12 +59,12 @@
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "",
+      "value": "-1001245329830",
       "required": false
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
-      "value": ""
+      "value": "1541307"
     },
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
@@ -83,23 +83,23 @@
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
-      "value": ""
+      "value": "8cf3d0329f93de84259486ace955a519"
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "-1001245329830"
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": ""
+      "value": "-1001177517406"
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "value": "-1001177517406"
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
+       "value": "-1001245329830"
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://Hellbot.hellboyop.repl.run/ ",
@@ -117,7 +117,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "",
+      "value": "3fc6da4b-8662-499b-9354-3e2d8950d3a5",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -162,7 +162,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "$",
       "required": true
     }, 
     "TZ": {
