@@ -49,7 +49,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
+      "value": "https://i.postimg.cc/MKF46Jzq/IMG-20201022-184213-361.jpg",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
